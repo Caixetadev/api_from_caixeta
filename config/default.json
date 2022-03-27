@@ -1,0 +1,12 @@
+{
+    "server": {
+      "port" : 8000
+    },
+    "mysql": {
+        "host": "localhost",
+        "username": "root",
+        "password": "password",
+        "db": "anime",
+        "port": 3306
+    }
+  }
