@@ -11,7 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.26.1",
     "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.10",
     "config": "^3.2.3",
     "dotenv": "^16.0.0",
     "encrypt-password": "^1.0.1",

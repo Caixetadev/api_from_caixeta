@@ -1,6 +1,7 @@
 const auth = require('../controllers/users/auth');
 const register = require('../controllers/users/register');
 const validationToken = require('../controllers/users/validationToken');
+const recommendations = require('../controllers/users/anime/recommend');
 
 module.exports = conn => {
     return [{
