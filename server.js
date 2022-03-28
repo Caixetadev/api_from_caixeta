@@ -2,6 +2,7 @@ const {app, database} = require('./config/express')();
 const port = app.get('port');
 const routes = require('./api/routes/routes')();
 const conn = require('./config/mysql')(database)(database);
+const createTable = require('./api/data/createTables')()(conn);
 require('dotenv').config();
 
 app.listen(port, () => {
